@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --bg: rgb(37, 36, 33);
+  --fg: #e9e4d5;
+  --accent1: #ff0000;
+  --quick: 0.25s;
+  
+  --sans: "IBM Plex Sans", sans-serif;
+  --serif: "EB Garamond", serif;
+}
+
+body{
+  background-color: var(--bg);
+  color: var(--fg);
+  font-family: var(--sans);
+}
